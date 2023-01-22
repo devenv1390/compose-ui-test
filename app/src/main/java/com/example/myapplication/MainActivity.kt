@@ -94,7 +94,7 @@ fun Sample() {
 }
 
 @Composable
-fun MySnackBar(snackbarHostState: androidx.compose.material.SnackbarHostState, onDismiss: () -> Unit) {
+fun MySnackBar(snackbarHostState: SnackbarHostState, onDismiss: () -> Unit) {
     SnackbarHost(hostState = snackbarHostState, snackbar = { data ->
         Snackbar(modifier = Modifier.padding(12.dp), action = {
             data.actionLabel?.let {
@@ -109,7 +109,7 @@ fun MySnackBar(snackbarHostState: androidx.compose.material.SnackbarHostState, o
 }
 
 @Composable
-fun MyBottomAppBar() {
+fun MyBottomAppBar() {//第一种设计方案，采用BottomAppBar的形式，优点是每个IconButton的范围可控，比较美观，缺点是没有按钮按下后的外观变化
     BottomAppBar(cutoutShape = RoundedCornerShape(50), elevation = 10.dp) {
         CompositionLocalProvider(LocalContentAlpha provides ContentAlpha.high) {
             IconButton(onClick = {}, modifier = Modifier.padding(20.dp, 5.dp)) {
@@ -130,8 +130,7 @@ fun MyBottomAppBar() {
 }
 
 @Composable
-fun MyBottomNavigation() {
-    var index:Int = 0
+fun MyBottomNavigation() {//第二种设计方案，采用BottomAppBar与BottomNavigationItem结合的方式，解决了选项卡按下后没有外观变化的缺点，但动画和按键的布局范围比较难控制
     var selectedItem by remember { mutableStateOf(0) }
     val items = listOf(
         Item(0,"主页", icon = Icons.Default.Home),
@@ -148,7 +147,7 @@ fun MyBottomNavigation() {
 //                alwaysShowLabel = false,
 //                label = { Text(item.name)},
 //            )
-//        }
+//        }//不能采用遍历的方式创建导航选项卡，因为选项卡需要单独设置间隔值
         BottomNavigationItem(
             selected = selectedItem == 0,
             onClick = {selectedItem = 0},
