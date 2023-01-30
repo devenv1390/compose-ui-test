@@ -1,0 +1,815 @@
+{
+  "name": "bottom_app_bar",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Dz4lA0je8ZcLwEVgH7oZwA",
+    "node": "372:29466",
+    "version": "2932117895",
+    "component-id": "3c0f207d3c18d351b6ef71830e07ecb3e54713e7"
+  },
+  "default": "bottom-app-bar",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Frame 26086193"
+      },
+      {
+        "type": "group",
+        "id": "btn"
+      },
+      {
+        "type": "group",
+        "id": "leading-icon"
+      },
+      {
+        "type": "group",
+        "id": "leading-icon1"
+      },
+      {
+        "type": "group",
+        "id": "leading-icon2"
+      },
+      {
+        "type": "group",
+        "id": "leading-icon3"
+      },
+      {
+        "type": "group",
+        "id": "Icon 1"
+      },
+      {
+        "type": "group",
+        "id": "container"
+      },
+      {
+        "type": "text",
+        "id": "编辑产品"
+      },
+      {
+        "type": "group",
+        "id": "state-layer"
+      },
+      {
+        "type": "group",
+        "id": "edit_note"
+      },
+      {
+        "type": "vector",
+        "id": "Bounding box"
+      },
+      {
+        "type": "vector",
+        "id": "edit_note1"
+      },
+      {
+        "type": "group",
+        "id": "Icon 2"
+      },
+      {
+        "type": "group",
+        "id": "container1"
+      },
+      {
+        "type": "text",
+        "id": "对比"
+      },
+      {
+        "type": "group",
+        "id": "state-layer1"
+      },
+      {
+        "type": "group",
+        "id": "compare"
+      },
+      {
+        "type": "vector",
+        "id": "Bounding box1"
+      },
+      {
+        "type": "vector",
+        "id": "compare1"
+      },
+      {
+        "type": "group",
+        "id": "Icon 3"
+      },
+      {
+        "type": "group",
+        "id": "container2"
+      },
+      {
+        "type": "text",
+        "id": "收藏"
+      },
+      {
+        "type": "group",
+        "id": "state-layer2"
+      },
+      {
+        "type": "group",
+        "id": "star"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "group",
+        "id": "Icon 4"
+      },
+      {
+        "type": "group",
+        "id": "container3"
+      },
+      {
+        "type": "text",
+        "id": "评论"
+      },
+      {
+        "type": "group",
+        "id": "state-layer3"
+      },
+      {
+        "type": "group",
+        "id": "chat"
+      },
+      {
+        "type": "vector",
+        "id": "Bounding box2"
+      },
+      {
+        "type": "vector",
+        "id": "chat1"
+      },
+      {
+        "type": "text",
+        "id": "Next"
+      }
+    ],
+    "modes": {
+      "bottom-app-bar": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "4.0",
+              "right": "16.0"
+            },
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.6470588235294118",
+                "hue": "240.0",
+                "saturation": "0.012987012987012941",
+                "value": "0.9058823529411765"
+              },
+              "blur": "37.0",
+              "offset-x": "0.0",
+              "offset-y": "-13.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "Frame 26086193",
+              "btn"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Frame 26086193",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "leading-icon",
+              "leading-icon1",
+              "leading-icon2",
+              "leading-icon3"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "btn",
+            "border-radius": "20.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "156.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "is-structured": "false",
+            "children": [
+              "Next"
+            ]
+          },
+          {
+            "id": "leading-icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Icon 1"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "leading-icon1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Icon 2"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "leading-icon2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Icon 3"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "leading-icon3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Icon 4"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Icon 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "children": [
+              "container",
+              "编辑产品"
+            ],
+            "item-spacing": "-6.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "container",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer"
+            ],
+            "item-spacing": "10.0"
+          },
+          {
+            "id": "编辑产品",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "编辑产品",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.454545440673828"
+          },
+          {
+            "id": "state-layer",
+            "padding": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "edit_note"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "edit_note",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Bounding box",
+              "edit_note1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Bounding box",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "edit_note1",
+            "margin": {
+              "left": "3.0",
+              "top": "6.0",
+              "right": "2.875",
+              "bottom": "3.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "edit_note.svg"
+          },
+          {
+            "id": "Icon 2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "children": [
+              "container1",
+              "对比"
+            ],
+            "item-spacing": "-6.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "container1",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer1"
+            ],
+            "item-spacing": "10.0"
+          },
+          {
+            "id": "对比",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "对比",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.454545440673828"
+          },
+          {
+            "id": "state-layer1",
+            "padding": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "compare"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "compare",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Bounding box1",
+              "compare1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Bounding box1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "compare1",
+            "margin": {
+              "left": "3.0",
+              "top": "1.0",
+              "right": "3.0",
+              "bottom": "1.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "compare.svg"
+          },
+          {
+            "id": "Icon 3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "children": [
+              "container2",
+              "收藏"
+            ],
+            "item-spacing": "-6.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "container2",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer2"
+            ],
+            "item-spacing": "10.0"
+          },
+          {
+            "id": "收藏",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "收藏",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.454545440673828"
+          },
+          {
+            "id": "state-layer2",
+            "padding": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "star"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "star",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": "2.01416015625",
+              "top": "2.441375732421875",
+              "right": "1.98583984375",
+              "bottom": "2.40753173828125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Icon 4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "children": [
+              "container3",
+              "评论"
+            ],
+            "item-spacing": "-6.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "container3",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer3"
+            ],
+            "item-spacing": "10.0"
+          },
+          {
+            "id": "评论",
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "评论",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "11.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.454545440673828"
+          },
+          {
+            "id": "state-layer3",
+            "padding": "8.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "chat"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "chat",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Bounding box2",
+              "chat1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Bounding box2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "chat1",
+            "margin": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "chat.svg"
+          },
+          {
+            "id": "Next",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "28.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.0"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "加入已购买列表",
+            "overflow": "visible",
+            "text-align": "left",
+            "letter-spacing": "0.10000000149011612",
+            "line-height": "1.4285714721679688",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "bottom-app-bar",
+      "size": {
+        "width": 412.0,
+        "height": 80.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
